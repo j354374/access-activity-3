@@ -70,25 +70,36 @@ And lose the name of action.</p>
 <p>Categories and examples of the works of William Shakespeare.</p>
 
 <p>Shakespeare's works include the 36 plays that are grouped into Comedies, Tragedies and Histories.[Below is a table containing categories and titles of some of the works of Shakespeare. Use correct semantic HTML to make the table accessible. Hint:  the first row HTML is incorrect.]</p>
-<table border="1">
+
   
+  <table>
+		<caption>Shakespeares works</caption>
+
+  <thead>
   <tr>
-    <td>Category</td>
-    <td>Example</td>
+	  <th scope="col">Category</th>
+	  <th scope="col">Example</th>
+  </tr>
+  </thead>
+  <tbody>
+ <tr>
+  	<td data-label="Category">Comedy</td>
+        <td data-label="Example">The Comedy of Errors</td>
+    </tr>
+  <tr>
+    <td data-label="Category">Tragedy</td>
+    <td data-label="Example">The Comedy of Errors<</td>
   </tr>
   <tr>
-    <td>Comedy</td>
-    <td>The Comedy of Errors</td>
+    <td data-label="Category">Poems</td>
+    <td data-label="Example">Sonnets</td>
   </tr>
-  <tr>
-    <td>Tragedy</td>
-    <td>Romeo and Juliet</td>
-  </tr>
-    <tr>
-    <td>Poems</td>
-    <td>Sonnets</td>
-  </tr>
+   
+		</tbody>	  
 </table>
+  
+   
+  
 <p>Shakespeare's work is full of words that seem strange to us.  Here is a small example glossary of some words and their meanings. [Hint: this is best coded as a special kind of list]
 </p>
 ABY 
